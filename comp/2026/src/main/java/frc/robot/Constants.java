@@ -54,6 +54,11 @@ public final class Constants {
     }
 
     public static class hotdogConstants {
+        public static final int HOTDOG_MOTOR_ID = 2; // Hotdog motor ID
 
+        public static final double HOTDOG_STATOR_LIMIT = 50.0; // Example value, adjust as needed
+        public static final double HOTDOG_SUPPLY_LIMIT = 20.0; // Example value, adjust as needed
+        public static final double HOTDOG_FORWARD_VELOCITY = 1000.0; // Example value, adjust as needed
+        public static final double HOTDOG_BACKWARD_VELOCITY = -1000.0; // Example value, adjust as needed
     }
 }

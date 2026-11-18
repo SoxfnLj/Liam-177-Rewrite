@@ -4,10 +4,4 @@ public class IntakeIOReal implements IntakeIO {
     public IntakeIOReal() {
 
     }
-
-    @Override
-    public void periodic() {
-        
-    }
-    
 }
